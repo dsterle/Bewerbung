@@ -1,0 +1,46 @@
+//* Colors *//
+
+$evenDarker: rgb(24, 25, 26);
+$darker: #252627;
+$dark: #303133;
+$light: #4a4a4a;
+$middleLight: #cdcdcd;
+$lighter: #fff;
+$error: #c84f4f;
+
+//* Sizes *//
+// 1rem = 16px
+$golden-ratio: 1.618;
+
+$abstand-XS: 1rem * 0.25; // 4
+$abstand-S: 1rem * 0.5; // 8
+$abstand-M: 1rem; // 16
+$abstand-XM: 1rem * 1.5;
+$abstand-L: 1rem * 2; // 32
+$abstand-XL: 1rem * 4; // 64
+$abstand-XXL: 1rem * 4.5; // 72
+$abstand-XXXL: 1rem * 5; // 80
+$abstand-XXXXL: 1rem * 10; // 160
+
+//* Font Sizes *//
+
+$font-size-XS: 1rem * 0.5; // 8
+$font-size-S: 1rem * 0.75; // 12
+$font-size-M: 1rem; // 16
+$font-size-L: 1rem * 1.25; // 20
+$font-size-XL: 1rem * 1.5; // 24
+$font-size-XXL: 1rem * 1.75; // 28
+$font-size-XXXL: 1rem * 2; // 32
+
+// Der Zeilenabstand steht im goldenen Schnitt zur font-size
+$font-line-height-S: $font-size-S * $golden-ratio;
+$font-line-height-M: $font-size-M * $golden-ratio;
+$font-line-height-L: $font-size-L * $golden-ratio;
+$font-line-height-XL: $font-size-XL * $golden-ratio;
+$font-line-height-XXXL: $font-size-XXXL * $golden-ratio;
+
+//* Font-weight *//
+$weight-light: 300;
+$weight-regular: 400;
+$weight-medium: 500;
+$weight-semibold: 600;
